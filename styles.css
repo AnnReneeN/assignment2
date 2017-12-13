@@ -12,21 +12,21 @@ body {
 @media screen and (min-width: 599px) { 
 /*mobile*/
  body {
-		background: black;
+		background: white;
  }
 } 
 
 @media screen and (min-width: 600px) and (max-width: 1199) { 
 /*tablet*/
  body {
-		background: black;
+		background: white;
  }
 } 
 
 @media screen and (min-width: 1200px) { 
 /*desktop*/
 	body {
-		background: black;
+		background: white;
 		 }	 
 }
 
