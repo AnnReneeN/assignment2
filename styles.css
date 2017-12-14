@@ -65,7 +65,7 @@ header a:hover{
 /* Hype, this section puts in the background image. I used the CSS function url */
 #hype {
   min-height: 400px;
-  background:url('file:///H:/Documents/Third%20Year%202.0/CTEC3905%20Front%20End%20Web%20Development/assignment/images/header.jpg') no-repeat center;
+  background:url('images/header.jpg') no-repeat center;
   background-size: cover;
   text-align: center;
   color: #ffffff;
@@ -222,22 +222,6 @@ ul#food h3{
 		background: white;
  }
 
-#aboutus #side{
-	float:left;
-    max-width: 100%;
-    max-height: 100%;
-}  
-#aboutus #hat{
-	float:left;
-    max-width: 100%;
-    max-height: 100%;
-} 
-#aboutus #top{
-	float:left;
-    max-width: 100%;
-    max-height: 100%;
-} 
-
 } 
 
 /*this is a media query for mobiles of larger sizes*/
@@ -296,22 +280,36 @@ ul#food h3{
   }
 /*attempt to make images responsive*/
 #aboutus #side{
-	float:left;
+	float: none;
     max-width: 100%;
-    max-height: 100%;
+	max-height: 100%;
 }  
-#aboutus #hat{
-	float:left;
+#aboutus #side img {
+	width: 80vw;
+}
+#aboutus #hat {
+	float: none;
+	margin-left: 1px;
     max-width: 100%;
-    max-height: 100%;
-} 
-#aboutus #top{
-	float:left;
+	max-height: 100%;
+}	 
+#aboutus #hat img {
+	width: 80vw;
+}
+#aboutus #top {
+	float: none;
     max-width: 100%;
-    max-height: 100%;
+	max-height: 100%;
 } 
+#aboutus #top img {
+	width: 80vw;
+}
 }
 
+
+/*vw means view widht so it will take up 80% of the width on the page 
+
+*/
 @media screen and (min-width: 600px) and (max-width: 1199) { 
 /*tablet*/
  body {
