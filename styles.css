@@ -108,7 +108,21 @@ header a:hover{
 }
 
 
+/*aboutus on the homepage*/
+#aboutus #side{
+	float: left;
+	width: 30%;
+}
+	
+#aboutus #hat{
+	float: right;
+	width: 30%;
+}
 
+#aboutus #top{
+	float: right;
+	width: 30%;
+}
 
 
 
