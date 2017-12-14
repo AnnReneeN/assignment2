@@ -121,22 +121,22 @@ header a:hover{
 #aboutus #side{
 	float: left;
 	width: 15%;
-	margin-right: 1%;
+	margin-right: 5%;
 	margin-left: 0%;
 }
 	
 #aboutus #hat{
 	float: left;
 	width: 15%;
-	margin-right: 1%;
-	margin-left: 15%;
+	margin-right: 0%;
+	margin-left: 10%;
 }
 
 #aboutus #top{
 	float: right;
 	width: 15%;
-	margin-right: 20%;
-	margin-left: 0%;
+	margin-right: 25%;
+	margin-left: 1%;
 }
 
 
