@@ -78,6 +78,15 @@ header a:hover{
 #hype p{
   font-size: 20px;
 }
+ #hype img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+
 
 
 /* Membership */
@@ -156,8 +165,6 @@ article#main-col{
 }
 
 
-
-
 footer{
   padding: 20px;
   margin-top: 20px;
@@ -196,6 +203,9 @@ ul#food h3{
 
 
 
+
+
+
 /*MEDIA QUERIES*/
 
 @media screen and (min-width: 599px) { 
@@ -203,6 +213,31 @@ ul#food h3{
  body {
 		background: white;
  }
+} 
+
+
+@media screen (min-width:250px) and (max-width: 400px) { 
+/*mobile*/
+ body {
+		background: white;
+ }
+
+#aboutus #side{
+	float:left;
+    max-width: 100%;
+    max-height: 100%;
+}  
+#aboutus #hat{
+	float:left;
+    max-width: 100%;
+    max-height: 100%;
+} 
+#aboutus #top{
+	float:left;
+    max-width: 100%;
+    max-height: 100%;
+} 
+
 } 
 
 /*this is a media query for mobiles of larger sizes*/
@@ -223,6 +258,11 @@ ul#food h3{
   #hype h1{
     margin-top: 40px;
   }
+/*scaling the image to make it responsive for all device sizes*/
+  #hype img{
+    max-width: 100%;
+    max-height: 100%;
+}
   #membership button {
     display: block;
     width: 100%;
@@ -246,15 +286,30 @@ ul#food h3{
   }
   
   [...]
-  /*membership form, check food page*/
-#newsletter form input[type="email"],
+/*membership form, check food page*/
+#membership form input[type="email"],
   .contact input,
   .contact textarea,
   .contact label{
     width: 100%;
     margin-bottom: 5px;
   }
-  
+/*attempt to make images responsive*/
+#aboutus #side{
+	float:left;
+    max-width: 100%;
+    max-height: 100%;
+}  
+#aboutus #hat{
+	float:left;
+    max-width: 100%;
+    max-height: 100%;
+} 
+#aboutus #top{
+	float:left;
+    max-width: 100%;
+    max-height: 100%;
+} 
 }
 
 @media screen and (min-width: 600px) and (max-width: 1199) { 
