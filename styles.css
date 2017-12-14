@@ -111,6 +111,33 @@ header a:hover{
 
 
 
+
+
+
+
+
+
+
+
+
+/* Sidebar for About Page */
+aside#sidebar{
+  float: right;
+  width: 30%;
+  padding: 5px;
+}
+aside#sidebar .contact input, aside#sidebar .contact textarea{
+  width: 90%;
+  padding: 5px;
+}
+article#main-col{
+  float: left;
+  width: 65%;
+}
+
+
+
+
 footer{
   padding: 20px;
   margin-top: 20px;
@@ -120,9 +147,36 @@ footer{
 }
 
 
+/* Food */
+ul#food li{
+  list-style: none;
+  padding: 20px;
+  border: #cccccc solid 1px;
+  margin-bottom: 5px;
+  background: #32a0c2;
+}
+ul#food h3{
+  border-bottom: #353637 solid 1px;
+}
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*MEDIA QUERIES*/
 
 @media screen and (min-width: 599px) { 
 /*mobile*/
@@ -131,7 +185,7 @@ footer{
  }
 } 
 
-/*this is a querie for mobiles of larger sizes*/
+/*this is a media query for mobiles of larger sizes*/
 @media(max-width: 768px){
   header #branding,
   header nav,
@@ -157,6 +211,30 @@ footer{
     width: 100%;
     margin-bottom: 5px;
   }
+/*this section applies a different styling to the main column and sidebar on the about page*/  
+  header #branding,
+  header nav,
+  header nav li,
+  #membership h1,
+  #membership form,
+  #boxes .box,
+  article#main-col,
+  aside#sidebar {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+  
+  [...]
+  /*membership form, check food page*/
+#newsletter form input[type="email"],
+  .contact input,
+  .contact textarea,
+  .contact label{
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  
 }
 
 @media screen and (min-width: 600px) and (max-width: 1199) { 
