@@ -147,6 +147,7 @@ header a:hover{
 
 
 
+/* ABOUT PAGE */
 
 
 /* Sidebar for About Page */
@@ -164,7 +165,6 @@ article#main-col{
   width: 65%;
 }
 
-
 footer{
   padding: 20px;
   margin-top: 20px;
@@ -172,6 +172,21 @@ footer{
   background-color: #c2a231;
   text-align: center;
 }
+
+h1{ text-shadow: 1px 1px 1px #000;
+	font-size: 40px;
+	text-align: center;
+ }
+ 
+ 
+ p{ text-align: center; 
+ }
+
+
+
+
+
+
 
 
 /* Food */
