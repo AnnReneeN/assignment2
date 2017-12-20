@@ -147,6 +147,8 @@ header a:hover{
 
 
 
+
+
 /* ABOUT PAGE */
 
 
@@ -173,7 +175,7 @@ footer{
   text-align: center;
 }
 
-h1{ text-shadow: 1px 1px 1px #000;
+h1{ text-shadow: 1px 1px 1px gold;
 	font-size: 40px;
 	text-align: center;
  }
@@ -181,26 +183,6 @@ h1{ text-shadow: 1px 1px 1px #000;
  
  p{ text-align: center; 
  }
-
-
-
-
-
-
-
-
-/* Food */
-ul#food li{
-  list-style: none;
-  padding: 20px;
-  border: #cccccc solid 1px;
-  margin-bottom: 5px;
-  background: #32a0c2;
-}
-ul#food h3{
-  border-bottom: #353637 solid 1px;
-}
-
 
 
 
@@ -260,16 +242,67 @@ ul#food h3{
 
 
 
+/* FOOD PAGE */
+ul#food li{
+  list-style: none;
+  padding: 20px;
+  border: #cccccc solid 1px;
+  margin-bottom: 5px;
+  background: #32a0c2;
+}
+ul#food h3{
+  border-bottom: #353637 solid 1px;
+}
+
+
+h6{
+	font-size: 40px;
+	text-align: left;
+	color: gold;
+	font-family: "Brush Script MT";
+}
+
+#product p{
+	text-align: left;
+}
+
+
+/*membership form, check food page*/
+#membership form input[type="email"],
+  .contact input,
+  .contact textarea,
+  .contact label{
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  
 
 
 
 
+  
+  
+  /*MEMBERSHIP PAGE*/
 
 
+#rcorners1 {
+    border-radius: 25px;
+    background: black;
+    padding: 20px; 
+    width: 600px;
+    height: 150px;   
+	color: white;
+	margin-left: 10px;
+}
 
-
-
-
+#rcorners2 {
+    border-radius: 25px;
+    border: 2px solid black;
+    padding: 20px; 
+    width: 600px;
+    height: 150px; 
+	margin-left: 10px;
+}
 
 
 
@@ -373,14 +406,7 @@ ul#food h3{
   }
   
   [...]
-/*membership form, check food page*/
-#membership form input[type="email"],
-  .contact input,
-  .contact textarea,
-  .contact label{
-    width: 100%;
-    margin-bottom: 5px;
-  }
+  
 /*attempt to make images responsive*/
 #aboutus #side{
 	float: none;
