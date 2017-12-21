@@ -168,6 +168,7 @@ article#main-col{
 }
 
 footer{
+	clear: both;
   padding: 20px;
   margin-top: 20px;
   color: #ffffff;
@@ -265,8 +266,21 @@ h6{
 	font-family: "Brush Script MT";
 }
 
-#product p{
+.product p{
 	text-align: left;
+}
+
+section#mainfood{
+  float: left;
+  width: 65%;
+}
+
+aside#sidebartwo{
+  float: right;
+  width: 30%;
+  padding: 5px;
+	margin-top: 60px;
+	margin-bottom: 50px;
 }
 
 
@@ -275,9 +289,10 @@ h6{
   .contact input,
   .contact textarea,
   .contact label{
-    width: 60%;
+    width: 70%;
     margin-bottom: 10px;
 		margin-top: 25px;
+		text-align: left;
 
   }
 
