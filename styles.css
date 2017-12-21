@@ -5,12 +5,12 @@ body {
 	margin:0;
 	background-color: #f4f4f4;
 }
-	.container{
+.container{
 	width: 80%;
 	margin: auto;
 	overflow: hidden;
 }
-	ul{
+ul{
 	margin: 0;
 	padding: 0;
 }
@@ -22,40 +22,40 @@ body {
 
 /* Header This section is the css style for my header which contains the navigation of my website */
 header{
-  background: #353637;
-  color: #ffffff;
-  padding-top: 30px;
-  min-height: 70px;
-  border-bottom: #c2a231 3px solid;
+	background: #353637;
+	color: #ffffff;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: #c2a231 3px solid;
 }
 header a{
-  color: #ffffff;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 16px;
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
 }
 header li{
-  float: left;
-  display: inline;
-  padding: 0 20px 0 20px;
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
 }
 header #branding{
-  float: left;
+	float: left;
 }
 header #branding h1{
-  margin: 0;
+	margin: 0;
 }
 header nav{
-  float: right;
-  margin-top: 10px;
+	float: right;
+	margin-top: 10px;
 }
 header .highlight, header .current a{
-  color: #c2a231;
-  font-weight: bold;
+	color: #c2a231;
+	font-weight: bold;
 }
 header a:hover{
-  color: #cccccc;
-  font-weight: bold;
+	color: #cccccc;
+	font-weight: bold;
 }
 
 
@@ -64,23 +64,23 @@ header a:hover{
 
 /* Hype, this section puts in the background image. I used the CSS function url */
 #hype {
-  min-height: 400px;
-  background:url('images/header.jpg') no-repeat center;
-  background-size: cover;
-  text-align: center;
-  color: #ffffff;
+	min-height: 400px;
+	background:url('images/header.jpg') no-repeat center;
+	background-size: cover;
+	text-align: center;
+	color: #ffffff;
 }
 #hype h1{
-  margin-top: 100px;
-  font-size: 55px;
-  margin-bottom: 10px;
+	margin-top: 100px;
+	font-size: 55px;
+	margin-bottom: 10px;
 }
 #hype p{
-  font-size: 20px;
+	font-size: 20px;
 }
- #hype img{
-    max-width: 100%;
-    height: auto;
+#hype img{
+	max-width: 100%;
+	height: auto;
 }
 
 
@@ -91,29 +91,29 @@ header a:hover{
 
 /* Membership */
 #membership{
-  padding: 15px;
-  color: #ffffff;
-  background: #353637;
+	padding: 15px;
+	color: #ffffff;
+	background: #353637;
 }
 #membership h1{
-  float: left;
+	float: left;
 }
 #membership form{
-  float: right;
-  margin-top: 15px;
+	float: right;
+	margin-top: 15px;
 }
 #membership input[type="email"]{
-  padding: 4px;
-  height: 25px;
-  width: 250px;
+	padding: 4px;
+	height: 25px;
+	width: 250px;
 }
 .button_1{
-  height: 38px;
-  background: #cccccc;
-  border: 0;
-  padding-left: 20px;
-  padding-right: 20px;
-  color: #353637;
+	height: 38px;
+	background: #cccccc;
+	border: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #353637;
 }
 
 
@@ -154,26 +154,26 @@ header a:hover{
 
 /* Sidebar for About Page */
 aside#sidebar{
-  float: right;
-  width: 30%;
-  padding: 5px;
+	float: right;
+	width: 30%;
+	padding: 5px;
 }
 aside#sidebar .contact input, aside#sidebar .contact textarea{
-  width: 90%;
-  padding: 5px;
+	width: 90%;
+	padding: 5px;
 }
 article#main-col{
-  float: left;
-  width: 65%;
+	float: left;
+	width: 65%;
 }
 
 footer{
 	clear: both;
-  padding: 20px;
-  margin-top: 20px;
-  color: #ffffff;
-  background-color: #c2a231;
-  text-align: center;
+	padding: 20px;
+	margin-top: 20px;
+	color: #ffffff;
+	background-color: #c2a231;
+	text-align: center;
 	right: 0;
 	bottom: 0;
 	left:0;
@@ -182,63 +182,63 @@ footer{
 h1{ text-shadow: 1px 1px 1px gold;
 	font-size: 40px;
 	text-align: center;
- }
+}
 
 
- p{ text-align: center;
- }
+p{ text-align: center;
+}
 
 
 
 .loader {
-    text-align: center;
+	text-align: center;
 }
 .loader span {
-    display: inline-block;
-    vertical-align: middle;
-    width: 20px;
-    height: 5px;
-    margin: 50px auto;
-    background: black;
-    border-radius: 50px;
-    -webkit-animation: loader 0.9s infinite alternate;
-    -moz-animation: loader 0.9s infinite alternate;
+	display: inline-block;
+	vertical-align: middle;
+	width: 20px;
+	height: 5px;
+	margin: 50px auto;
+	background: black;
+	border-radius: 50px;
+	-webkit-animation: loader 0.9s infinite alternate;
+	-moz-animation: loader 0.9s infinite alternate;
 }
 .loader span:nth-of-type(2) {
-    -webkit-animation-delay: 0.4s;
-    -moz-animation-delay: 0.2s;
+	-webkit-animation-delay: 0.4s;
+	-moz-animation-delay: 0.2s;
 }
 .loader span:nth-of-type(3) {
-    -webkit-animation-delay: 0.6s;
-    -moz-animation-delay: 0.6s;
+	-webkit-animation-delay: 0.6s;
+	-moz-animation-delay: 0.6s;
 }
 @-webkit-keyframes loader {
-  0% {
-    width: 10px;
-    height: 10px;
-    opacity: 0.9;
-    -webkit-transform: translateY(0);
-  }
-  100% {
-    width: 24px;
-    height: 24px;
-    opacity: 0.1;
-    -webkit-transform: translateY(-21px);
-  }
+	0% {
+		width: 10px;
+		height: 10px;
+		opacity: 0.9;
+		-webkit-transform: translateY(0);
+	}
+	100% {
+		width: 24px;
+		height: 24px;
+		opacity: 0.1;
+		-webkit-transform: translateY(-21px);
+	}
 }
 @-moz-keyframes loader {
-  0% {
-    width: 10px;
-    height: 10px;
-    opacity: 0.9;
-    -moz-transform: translateY(0);
-  }
-  100% {
-    width: 24px;
-    height: 24px;
-    opacity: 0.1;
-    -moz-transform: translateY(-21px);
-  }
+	0% {
+		width: 10px;
+		height: 10px;
+		opacity: 0.9;
+		-moz-transform: translateY(0);
+	}
+	100% {
+		width: 24px;
+		height: 24px;
+		opacity: 0.1;
+		-moz-transform: translateY(-21px);
+	}
 }
 
 
@@ -248,14 +248,14 @@ h1{ text-shadow: 1px 1px 1px gold;
 
 /* FOOD PAGE */
 ul#food li{
-  list-style: none;
-  padding: 20px;
-  border: #cccccc solid 1px;
-  margin-bottom: 5px;
-  background: #32a0c2;
+	list-style: none;
+	padding: 20px;
+	border: #cccccc solid 1px;
+	margin-bottom: 5px;
+	background: #32a0c2;
 }
 ul#food h3{
-  border-bottom: #353637 solid 1px;
+	border-bottom: #353637 solid 1px;
 }
 
 
@@ -272,14 +272,14 @@ h6{
 }
 
 section#mainfood{
-  float: left;
-  width: 65%;
+	float: left;
+	width: 65%;
 }
 
 aside#sidebartwo{
-  float: right;
-  width: 30%;
-  padding: 5px;
+	float: right;
+	width: 30%;
+	padding: 5px;
 	margin-top: 60px;
 	margin-bottom: 50px;
 }
@@ -287,31 +287,31 @@ aside#sidebartwo{
 
 /*membership form, check food page*/
 #membership form input[type="email"],
-  .contact input,
-  .contact textarea,
-  .contact label{
-    width: 70%;
-    margin-bottom: 10px;
-		margin-top: 25px;
-		text-align: left;
+.contact input,
+.contact textarea,
+.contact label{
+	width: 70%;
+	margin-bottom: 10px;
+	margin-top: 25px;
+	text-align: left;
 
-  }
-
-
+}
 
 
 
 
 
-  /*MEMBERSHIP PAGE*/
+
+
+/*MEMBERSHIP PAGE*/
 
 
 #rcorners1 {
-    border-radius: 25px;
-    background: #353637;
-    padding: 20px;
-    width: 600px;
-    height: 150px;
+	border-radius: 25px;
+	background: #353637;
+	padding: 20px;
+	width: 600px;
+	height: 150px;
 	color: white;
 	margin-left: 100px;
 	display: block;
@@ -322,11 +322,11 @@ aside#sidebartwo{
 }
 
 #rcorners2 {
-    border-radius: 25px;
-    border: 2px solid #353637;
-    padding: 20px;
-    width: 600px;
-    height: 150px;
+	border-radius: 25px;
+	border: 2px solid #353637;
+	padding: 20px;
+	width: 600px;
+	height: 150px;
 	margin-left: 100px;
 	display: block;
 	margin-left: auto;
@@ -374,34 +374,34 @@ aside#sidebartwo{
 
 }
 
-	.fa {
-	  padding: 20px;
-	  font-size: 30px;
-	  width: 70px;
-	  text-align: center;
-	  text-decoration: none;
-	  margin: 5px 2px;
-	}
+.fa {
+	padding: 20px;
+	font-size: 30px;
+	width: 70px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+}
 
-	.fa:hover {
-	    opacity: 0.7;
-	}
+.fa:hover {
+	opacity: 0.7;
+}
 
-	.fa-twitter {
-	  background: #55ACEE;
-	  color: white;
-	}
+.fa-twitter {
+	background: #55ACEE;
+	color: white;
+}
 
-	.fa-instagram {
-  background: #125688;
-  color: white;
+.fa-instagram {
+	background: #125688;
+	color: white;
 }
 
 
 .fa-snapchat-ghost {
-  background: #fffc00;
-  color: white;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	background: #fffc00;
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 
@@ -411,23 +411,25 @@ aside#sidebartwo{
 	border-width: 20px;
 }
 
-p {
+.fan {
 	    display: none;
 	    background-color: gold;
 	    padding: 20px;
 			text-align: center;
 	}
 
-	div:hover p {
+div:hover p {
 	    display: block;
-	}
-
-
-
-
-
-
 }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -475,102 +477,102 @@ p {
 /*MEDIA QUERIES*/
 
 @media screen and (min-width: 599px) {
-/*mobile*/
- body {
+	/*mobile*/
+	body {
 		background: white;
- }
+	}
 }
 
 
 @media screen (min-width:250px) and (max-width: 400px) {
-/*mobile*/
- body {
+	/*mobile*/
+	body {
 		background: white;
- }
+	}
 
 }
 
 /*this is a media query for mobiles of larger sizes*/
 @media(max-width: 768px){
-  header #branding,
-  header nav,
-  header nav li,
-  #membership h1,
-  #membership form,
-  #aboutus .box {
-    float: none;
-    text-align: center;
-    width: 100%;
-  }
-  header{
-    padding-bottom: 20px;
-  }
-  #hype h1{
-    margin-top: 40px;
-  }
-/*scaling the images to make it responsive for all device sizes*/
-  #hype img{
-    max-width: 100%;
-    max-height: 100%;
+	header #branding,
+	header nav,
+	header nav li,
+	#membership h1,
+	#membership form,
+	#aboutus .box {
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+	header{
+		padding-bottom: 20px;
+	}
+	#hype h1{
+		margin-top: 40px;
+	}
+	/*scaling the images to make it responsive for all device sizes*/
+	#hype img{
+		max-width: 100%;
+		max-height: 100%;
 	}
 
 	#team img{
-	max-width: 100%;
-    max-height: 100%;
+		max-width: 100%;
+		max-height: 100%;
 	}
 
-  #membership button {
-    display: block;
-    width: 100%;
+	#membership button {
+		display: block;
+		width: 100%;
 		float: right;
-  }
-  #membership form input[type="email"] {
-    width: 100%;
-    margin-bottom: 5px;
-  }
+	}
+	#membership form input[type="email"] {
+		width: 100%;
+		margin-bottom: 5px;
+	}
 
-/*this section applies a different styling to the main column and sidebar on the about page*/
-  header #branding,
-  header nav,
-  header nav li,
-  #membership h1,
-  #membership form,
-  #boxes .box,
-  article#main-col,
-  aside#sidebar {
-    float: none;
-    text-align: center;
-    width: 100%;
-  }
+	/*this section applies a different styling to the main column and sidebar on the about page*/
+	header #branding,
+	header nav,
+	header nav li,
+	#membership h1,
+	#membership form,
+	#boxes .box,
+	article#main-col,
+	aside#sidebar {
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
 
-  [...]
+	[...]
 
-/*attempt to make images responsive*/
-#aboutus #side{
-	float: none;
-    max-width: 100%;
-	max-height: 100%;
-}
-#aboutus #side img {
-	width: 80vw;
-}
-#aboutus #hat {
-	float: none;
-	margin-left: 1px;
-    max-width: 100%;
-	max-height: 100%;
-}
-#aboutus #hat img {
-	width: 80vw;
-}
-#aboutus #top {
-	float: none;
-    max-width: 100%;
-	max-height: 100%;
-}
-#aboutus #top img {
-	width: 80vw;
-}
+	/*attempt to make images responsive*/
+	#aboutus #side{
+		float: none;
+		max-width: 100%;
+		max-height: 100%;
+	}
+	#aboutus #side img {
+		width: 80vw;
+	}
+	#aboutus #hat {
+		float: none;
+		margin-left: 1px;
+		max-width: 100%;
+		max-height: 100%;
+	}
+	#aboutus #hat img {
+		width: 80vw;
+	}
+	#aboutus #top {
+		float: none;
+		max-width: 100%;
+		max-height: 100%;
+	}
+	#aboutus #top img {
+		width: 80vw;
+	}
 }
 
 
@@ -578,15 +580,15 @@ p {
 
 */
 @media screen and (min-width: 600px) and (max-width: 1199) {
-/*tablet*/
- body {
+	/*tablet*/
+	body {
 		background: white;
- }
+	}
 }
 
 @media screen and (min-width: 1200px) {
-/*desktop*/
+	/*desktop*/
 	body {
 		background: white;
-		 }
+	}
 }
