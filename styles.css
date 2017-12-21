@@ -405,7 +405,29 @@ aside#sidebartwo{
 }
 
 
+#fan{
+	border-style: double;
+	border-color: #353637;
+	border-width: 20px;
+}
 
+p {
+	    display: none;
+	    background-color: gold;
+	    padding: 20px;
+			text-align: center;
+	}
+
+	div:hover p {
+	    display: block;
+	}
+
+
+
+
+
+
+}
 
 
 
