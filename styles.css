@@ -264,6 +264,7 @@ h6{
 	text-align: left;
 	color: gold;
 	font-family: "Brush Script MT";
+
 }
 
 .product p{
@@ -335,6 +336,47 @@ aside#sidebartwo{
 }
 
 
+
+
+/*HELP PAGE*/
+#touch{
+	border-style: double;
+	border-color: #353637;
+	border-width: 20px;
+}
+
+#speak{
+	border-style: double;
+	border-color: #353637;
+	border-width: 20px;
+}
+
+.flex-container{
+	color: black;
+	display: flex;
+	background-color: white;
+	align-items: center;
+
+}
+
+.flex-container>div{
+	background-color: white;
+	margin:10px;
+	padding:20px;
+	font-size: 20px;
+	align-items: center;
+}
+
+#social{
+	border-style: double;
+	border-color: #353637;
+	border-width: 20px;
+
+}
+
+}
+
+}
 
 
 
