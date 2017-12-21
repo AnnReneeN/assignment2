@@ -124,7 +124,7 @@ header a:hover{
 	margin-right: 5%;
 	margin-left: 0%;
 }
-	
+
 #aboutus #hat{
 	float: left;
 	width: 15%;
@@ -173,21 +173,24 @@ footer{
   color: #ffffff;
   background-color: #c2a231;
   text-align: center;
+	right: 0;
+	bottom: 0;
+	left:0;
 }
 
 h1{ text-shadow: 1px 1px 1px gold;
 	font-size: 40px;
 	text-align: center;
  }
- 
- 
- p{ text-align: center; 
+
+
+ p{ text-align: center;
  }
 
 
 
 .loader {
-    text-align: center;    
+    text-align: center;
 }
 .loader span {
     display: inline-block;
@@ -272,25 +275,27 @@ h6{
   .contact input,
   .contact textarea,
   .contact label{
-    width: 100%;
-    margin-bottom: 5px;
+    width: 60%;
+    margin-bottom: 10px;
+		margin-top: 25px;
+
   }
-  
 
 
 
 
-  
-  
+
+
+
   /*MEMBERSHIP PAGE*/
 
 
 #rcorners1 {
     border-radius: 25px;
     background: #353637;
-    padding: 20px; 
+    padding: 20px;
     width: 600px;
-    height: 150px;   
+    height: 150px;
 	color: white;
 	margin-left: 100px;
 	display: block;
@@ -303,9 +308,9 @@ h6{
 #rcorners2 {
     border-radius: 25px;
     border: 2px solid #353637;
-    padding: 20px; 
+    padding: 20px;
     width: 600px;
-    height: 150px; 
+    height: 150px;
 	margin-left: 100px;
 	display: block;
 	margin-left: auto;
@@ -348,21 +353,21 @@ h6{
 
 /*MEDIA QUERIES*/
 
-@media screen and (min-width: 599px) { 
+@media screen and (min-width: 599px) {
 /*mobile*/
  body {
 		background: white;
  }
-} 
+}
 
 
-@media screen (min-width:250px) and (max-width: 400px) { 
+@media screen (min-width:250px) and (max-width: 400px) {
 /*mobile*/
  body {
 		background: white;
  }
 
-} 
+}
 
 /*this is a media query for mobiles of larger sizes*/
 @media(max-width: 768px){
@@ -391,17 +396,19 @@ h6{
 	#team img{
 	max-width: 100%;
     max-height: 100%;
-	}	
+	}
 
   #membership button {
     display: block;
     width: 100%;
+		float: right;
   }
   #membership form input[type="email"] {
     width: 100%;
     margin-bottom: 5px;
   }
-/*this section applies a different styling to the main column and sidebar on the about page*/  
+
+/*this section applies a different styling to the main column and sidebar on the about page*/
   header #branding,
   header nav,
   header nav li,
@@ -414,15 +421,15 @@ h6{
     text-align: center;
     width: 100%;
   }
-  
+
   [...]
-  
+
 /*attempt to make images responsive*/
 #aboutus #side{
 	float: none;
     max-width: 100%;
 	max-height: 100%;
-}  
+}
 #aboutus #side img {
 	width: 80vw;
 }
@@ -431,7 +438,7 @@ h6{
 	margin-left: 1px;
     max-width: 100%;
 	max-height: 100%;
-}	 
+}
 #aboutus #hat img {
 	width: 80vw;
 }
@@ -439,27 +446,26 @@ h6{
 	float: none;
     max-width: 100%;
 	max-height: 100%;
-} 
+}
 #aboutus #top img {
 	width: 80vw;
 }
 }
 
 
-/*vw means view width so it will take up 80% of the width on the page 
+/*vw means view width so it will take up 80% of the width on the page
 
 */
-@media screen and (min-width: 600px) and (max-width: 1199) { 
+@media screen and (min-width: 600px) and (max-width: 1199) {
 /*tablet*/
  body {
 		background: white;
  }
-} 
+}
 
-@media screen and (min-width: 1200px) { 
+@media screen and (min-width: 1200px) {
 /*desktop*/
 	body {
 		background: white;
-		 }	 
+		 }
 }
-
