@@ -17,9 +17,6 @@ ul{
 
 
 
-
-
-
 /* Header This section is the css style for my header which contains the navigation of my website */
 header{
 	background: #353637;
@@ -61,8 +58,8 @@ header a:hover{
 
 
 
-
-/* Hype, this section puts in the background image. I used the CSS function url */
+/*INDEX PAGE*/
+/* Hype, this section puts in the background image on my index page. I used the CSS function url */
 #hype {
 	min-height: 400px;
 	background:url('images/header.jpg') no-repeat center;
@@ -84,12 +81,7 @@ header a:hover{
 }
 
 
-
-
-
-
-
-/* Membership */
+/* membership Email On Homepge*/
 #membership{
 	padding: 15px;
 	color: #ffffff;
@@ -142,15 +134,7 @@ header a:hover{
 
 
 
-
-
-
-
-
-
-
 /* ABOUT PAGE */
-
 
 /* Sidebar for About Page */
 aside#sidebar{
@@ -184,10 +168,8 @@ h1{ text-shadow: 1px 1px 1px gold;
 	text-align: center;
 }
 
-
 p{ text-align: center;
 }
-
 
 
 .loader {
@@ -240,7 +222,6 @@ p{ text-align: center;
 		-moz-transform: translateY(-21px);
 	}
 }
-
 
 
 
@@ -302,9 +283,26 @@ aside#sidebartwo{
 
 
 
+/*ORDER PAGE*/
+
+#ordertime{
+	align-items: center;
+	text-align: center;
+}
+
+#ordernames{
+	text-align: center;
+}
+
+#map{
+  height: 400px;
+  width: 50%;
+	position: center;
+}
+
+
 
 /*MEMBERSHIP PAGE*/
-
 
 #rcorners1 {
 	border-radius: 25px;
@@ -334,6 +332,45 @@ aside#sidebartwo{
 	font-family: "Brush Script MT";
 	font-size: 20px;
 }
+
+
+figure {
+  width: 200px;
+  background: #aaa;
+  border: 2px solid #999;
+  overflow: hidden;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+figure img {
+  width: 100%;
+  height: 300px;
+  background: #eee;
+  margin-bottom: -4em;
+  display: block;
+}
+
+figcaption {
+  box-sizing: border-box;
+  height: 4.5em;
+  line-height: 0.98em;
+  padding: .25em;
+  transform: translateY(4em);
+  background: #fff;
+  /* background: rgba( 255, 255, 255, 0 ); */
+  opacity: 0;
+  transition: all .6s;
+}
+
+figure:hover figcaption {
+  transform: translateY(0em);
+  /* background: rgba( 255, 255, 255, .78 ); */
+  opacity: .78;
+}
+
+
 
 
 
@@ -423,49 +460,9 @@ div:hover p {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -547,7 +544,7 @@ div:hover p {
 
 	[...]
 
-	/*attempt to make images responsive*/
+	/* to make images responsive*/
 	#aboutus #side{
 		float: none;
 		max-width: 100%;
@@ -573,6 +570,36 @@ div:hover p {
 	#aboutus #top img {
 		width: 80vw;
 	}
+
+/*in order to make the boxes responsive and accessible i had to change the font style and width so that its easy to red from a mobile for example*/
+	#rcorners1{
+		width: 30vw;
+		font-family: Arial;
+		font-size: 10px;
+	}
+
+	#rcorners2{
+		width: 30vw;
+		font-family: Arial;
+		font-size: 9px;
+	}
+
+	.about-title .page-title{
+		width: 40vw;
+		font-size: 35px;
+		text-align: center;
+	}
+
+	.product img {
+	width: 50vw;
+  }
+
+	.product img {
+	width: 50vw;
+  }
+
+	.flex-container>div {
+	 width: 30vw;
 }
 
 

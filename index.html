@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>HYPE</title>
   <link rel="stylesheet" href="styles.css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -13,6 +13,7 @@
 	<header>
 	<div class="container">
         <div id="branding">
+          <!--i class represents the diamond icon that i imported from an external stylesheet-->
           <h1><i class="fa fa-diamond" aria-hidden="true"></i> <span class="highlight">HE</span> HYPE</h1>
         </div>
         <nav>
@@ -20,68 +21,65 @@
             <li class="current"><a href="index.html">Home</a></li>
             <li><a href="about.html">About Us</a></li>
             <li><a href="food.html">Food</a></li>
-			<li><a href="order.html">Order</a></li>
-			<li><a href="membership.html">Membership</a></li>
-			<li><a href="help.html">Help</a></li>
+			      <li><a href="order.html">Order</a></li>
+			      <li><a href="membership.html">Membership</a></li>
+			      <li><a href="help.html">Help</a></li>
           </ul>
         </nav>
-      </div>
-    </header>
+  </div>
+  </header>
 
+<!--contains the brand's logo in a huge ratio across the screen, adjusts to mobile sizes and more for responsiveness-->
+  <section id="hype">
+  	<div class="container">
+          <img src="images/hypeheader.jpg">
+          <p>.</p>
+    </div>
+  </section>
 
-    <section id="hype">
-	<div class="container">
-        <img src="images/hypeheader.jpg">
-        <p>.</p>
-      </div>
-    </section>
-
-    <section id="membership">
-	<div class="container">
+  <section id="membership">
+  	<div class="container">
         <h1>Join The Team</h1>
-        <form action="">
-          <input type="email" placeholder="Enter your email address for more ... ">
-          <button type="submit" class="button_1">Join</button>
-        </form>
-      </div>
-    </section>
+<!--form allows visitors to enter the email address as a way of joining the mailing team-->
+          <form action="">
+            <input type="email" placeholder="Enter your email address for more ... ">
+            <button type="submit" class="button_1">Join</button>
+          </form>
+    </div>
+  </section>
 
 
-    <section id="aboutus">
+  <section id="aboutus">
 	<div class="container">
-
+<!--each div id contains an image of the three companies involved for the Hype Entertainment brand-->>
 		<div id=side>
         <div class="box">
-          <i class="fa fa-signal fa-5x"></i>
-          <h3>HYPE</h3>
-		  <p><img src="images/hypehp.jpg"></p>
+            <h3>HYPE</h3>
+		        <p><img src="images/hypehp.jpg"></p>
         </div>
 		</div>
 
+<!--used div class in order to position the items in a correct manner-->>
 		<div id=hat>
 		<div class="hat">
-          <i class="fa fa-photo fa-5x"></i>
-          <h3>Scripts Treats</h3>
-          <p><img src="images/scripthp.jpg"></p>
+            <h3>Scripts Treats</h3>
+            <p><img src="images/scripthp.jpg"></p>
         </div>
 		</div>
 
 		<div id=top>
         <div class="box">
-          <i class="fa fa-cube fa-5x"></i>
-          <h3>Vianni Industries</h3>
-          <p><img src="images/viannihp.jpg"</p>
+            <h3>Vianni Industries</h3>
+            <p><img src="images/viannihp.jpg"</p>
         </div>
 		</div>
 
+  </div>
+  </section>
 
-
-
-      </div>
-    </section>
-
+<!--the following is a footer which is to be placed on all pages and styled through the external cascade stylesheet-->>
     <footer>
-      <p>Hype Entertainment x Scripts Treats</p>
+      <p>Hype Entertainment x Scripts Treats   <a href="sitemap.html">Sitemap</a></p>
     </footer>
 
 </body>
