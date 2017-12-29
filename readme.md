@@ -1,8 +1,8 @@
-#Readme
+# Readme
 
 ## Hype Entertainment Website
 
-##Git Hub Commit Problems
+## Git Hub Commit Problems
 **Upon switching from Gateway Lab computers to my laptop for the Christmas holidays my commits did not work. I sent footage and images to Dave & Fania and due to the Christmas break the response was delayed and therefore when the issue was solved there wasn't anything left for me to commit. **
 
 
