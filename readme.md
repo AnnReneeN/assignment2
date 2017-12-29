@@ -28,10 +28,12 @@ Make sure the website is whilst developing;
 
 DMU Front End Web Development Lecture 4 Design, Information Architecture, Accessibility
 
-###Wireframes
+## Wireframes
 
-![assignment/wireframes/desktop-wireframes]()
+![C:\Users\ReneeRaymond\Downloads\front end 2\assignment\assignment\wireframes\desktop-wireframes]()
 ![assignment/wireframes/mobile-wireframes]()
+![Desktop Wireframes](assignment/wireframes/desktop-wireframes)
+![Mobile Wireframes](C:\Users\ReneeRaymond\Downloads\front end 2\assignment\assignment\wireframes\desktop-wireframes)
 
 # References
 
@@ -42,3 +44,26 @@ anonymous,. (2017) Getting The Website Information Architecture Right: How to St
 anonymous,. (2017) The Difference Between Information Architecture (IA) and Navigation. [Online] Available from: https://www.nngroup.com/articles/ia-vs-navigation/ [Accessed 23/12/2017]
 
 anonymous,. (2017) Information Architecture Basics | Usability.gov. [Online] Available from: https://www.usability.gov/what-and-why/information-architecture.html [Accessed 23/12/2017]
+
+References
+anonymous,. (2017) Information Architecture. Basics for Designers. – UX Planet. [Online] Available from: https://uxplanet.org/information-architecture-basics-for-designers-b5d43df62e20 [Accessed 23/12/2017]
+
+anonymous,. (2017) Getting The Website Information Architecture Right: How to Structure Your Site for Optimal User Experiences. [Online] Available from: https://conversionxl.com/blog/website-information-architecture-optimal-user-experience/ [Accessed 23/12/2017]
+
+anonymous,. (2017) The Difference Between Information Architecture (IA) and Navigation. [Online] Available from: https://www.nngroup.com/articles/ia-vs-navigation/ [Accessed 23/12/2017]
+
+anonymous,. (2017) Information Architecture Basics | Usability.gov. [Online] Available from: https://www.usability.gov/what-and-why/information-architecture.html [Accessed 23/12/2017]
+
+anonymous,. (2017) Accessibility Principles - How People with Disabilities Use the Web ◦ Web Accessibility Initiative ◦ W3C. [Online] Available from: https://www.w3.org/WAI/intro/people-use-web/principles [Accessed 20/12/2017]
+
+anonymous,. (2017) WebAIM: Quick Reference - Web Accessibility Principles. [Online] Available from: https://webaim.org/resources/quickref/ [Accessed 20/12/2017]
+
+anonymous,. (2017) Google Maps JavaScript API  |  Google Developers. [Online] Available from: https://developers.google.com/maps/documentation/javascript/ [Accessed 24/12/2017]
+
+anonymous,. (2017) WebAIM: Quick Reference - Web Accessibility Principles. [Online] Available from: https://webaim.org/resources/quickref/ [Accessed 15/12/2017]
+
+anonymous,. (2017) Accessibility Principles - How People with Disabilities Use the Web ◦ Web Accessibility Initiative ◦ W3C. [Online] Available from: https://www.w3.org/WAI/intro/people-use-web/principles [Accessed 15/12/2017]
+
+FELKE-MORRIS, T. (2012) Basics of web design. Boston: Addison-Wesley
+
+MELONI, J. (2012) Sam's teach yourself HTML, CSS and JavaScript all in one. Indiana: SAMS Publishing
