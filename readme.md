@@ -10,6 +10,7 @@
 ### Testing
 I created a survey and sent members of the public a link of my website and the survey to test out the usability etc. of the website.
 https://forms.office.com/Pages/ResponsePage.aspx?id=48B4T1DS3027HBXTFFaXzFE5PfWRUgJHu4IJ2W81DtdUMFZVNDRTVVBZQjJEV08wTUhXTEhaWDNVSy4u
+The responses so far can be viewed in the files folder, it is the excel document.
 
 ### Information Architecture
 Users - The target audience is the general public over the age of 16+ as they are the audience likely to be interested in buying cakes or drinks an finding out more about the brand Hype Entertainment and what they have to offer for the new year.
@@ -25,9 +26,10 @@ Make sure the website is whilst developing;
 * Understandable - User friendly
 * Robust - Works across most browsers and devices
 
-
 DMU Front End Web Development Lecture 4 Design, Information Architecture, Accessibility
 
+### Wireframes
+Can be found in wireframes folder.
 
 
 # References
