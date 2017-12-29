@@ -30,7 +30,7 @@ DMU Front End Web Development Lecture 4 Design, Information Architecture, Access
 
 ## Wireframes
 
-![C:\Users\ReneeRaymond\Downloads\front end 2\assignment\assignment\wireframes\desktop-wireframes]()
+![assignment\assignment\wireframes\desktop-wireframes]()
 ![assignment/wireframes/mobile-wireframes]()
 ![Desktop Wireframes](assignment/wireframes/desktop-wireframes)
 ![Mobile Wireframes](C:\Users\ReneeRaymond\Downloads\front end 2\assignment\assignment\wireframes\desktop-wireframes)
