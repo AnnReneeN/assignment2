@@ -2,8 +2,8 @@
 
 ## Hype Entertainment Website
 
-## Git Hub Commit Problems
-** Upon switching from Gateway Lab computers to my laptop for the Christmas holidays my commits did not work. I sent footage and images to Dave & Fania and due to the Christmas break the response was delayed and therefore when the issue was solved there wasn't anything left for me to commit. **
+### Git Hub Commit Problems
+* Upon switching from Gateway Lab computers to my laptop for the Christmas holidays my commits did not work. I sent footage and images to Dave & Fania and due to the Christmas break the response was delayed and therefore when the issue was solved there wasn't anything left for me to commit. *
 
 
 
@@ -13,7 +13,9 @@ https://forms.office.com/Pages/ResponsePage.aspx?id=48B4T1DS3027HBXTFFaXzFE5PfWR
 
 ### Information Architecture
 Users - The target audience is the general public over the age of 16+ as they are the audience likely to be interested in buying cakes or drinks an finding out more about the brand Hype Entertainment and what they have to offer for the new year.
+
 Content & Context - The website should show the products that will be available and way to contact the team for further enquiries compared to the original means of contact which was through phone. The website should be relatively easy to use with some interactive features and should have a structured theme throughout.
+
 Accessibility - Clear colour scheme to prevent a struggle for those with viewing difficulties to make the website more accessible. The navigation menu should be easy to see and use and the sitemap that is created will be part of the menu so that any users have easy access to it.  
 
 ### Principles Of Accessibility (note to self)
@@ -25,6 +27,11 @@ Make sure the website is whilst developing;
 
 
 DMU Front End Web Development Lecture 4 Design, Information Architecture, Accessibility
+
+###Wireframes
+
+![assignment/wireframes/desktop-wireframes]()
+![assignment/wireframes/mobile-wireframes]()
 
 # References
 
